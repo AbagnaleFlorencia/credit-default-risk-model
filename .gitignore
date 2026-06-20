@@ -1,0 +1,31 @@
+# --- Entornos virtuales de Python ---
+
+venv/
+.venv/
+env/
+
+# --- Cache y compilados de Python ---
+__pycache__/
+*.pyc
+
+# --- Checkpoints de Jupyter ---
+.ipynb_checkpoints/
+
+# --- Datos pesados o sensibles ---
+# README explica cómo descargarlo (URL pública o S3).
+data/raw/*.csv
+data/processed/*.csv
+
+# --- Modelos entrenados ---
+# Los .pkl/.json de modelos pueden pesar varios MB y son regenerables
+# corriendo el código de entrenamiento. Los excluimos del repo principal.
+models/*.pkl
+models/*.json
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Variables de entorno / credenciales ---
+.env
+kaggle.jso
