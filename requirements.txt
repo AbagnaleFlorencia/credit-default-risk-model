@@ -7,3 +7,4 @@ matplotlib==3.8.4
 seaborn==0.13.2
 jupyter==1.0.0
 boto3==1.34.131
+missingno==0.5.2
