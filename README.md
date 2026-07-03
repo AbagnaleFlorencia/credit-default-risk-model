@@ -14,7 +14,7 @@ explicabilidad con SHAP.
 ## Estado actual
 
 - [x] Estructura del proyecto
-- [ ] Análisis exploratorio de datos (EDA)
+- [x] Análisis exploratorio de datos (EDA)
 - [ ] Pipeline de preprocesamiento
 - [ ] Entrenamiento de modelos (Árbol de Decisión, Random Forest, XGBoost)
 - [ ] Evaluación comparativa
